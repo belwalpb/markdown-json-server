@@ -1,0 +1,36 @@
+{
+  "name": "markdown-json-server",
+  "version": "1.0.0",
+  "description": "Markdown To JSON Parsing Minimal Server Using NodeJS, ExpressJS & TypeScript",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "predev": "npm run build",
+    "dev": "concurrently \"tsc --watch\" \"nodemon -q dist/index.js\"",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belwalpb/markdown-json-server.git"
+  },
+  "author": "Priyanshu Belwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/belwalpb/markdown-json-server/issues"
+  },
+  "homepage": "https://github.com/belwalpb/markdown-json-server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "md-json-parser": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "concurrently": "^8.2.0",
+    "nodemon": "^1.14.9",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.3"
+  }
+}

@@ -1,7 +1,7 @@
-<h1 align="center">
-<img width="40" valign="bottom" src="https://ultimatecourses.com/static/icons/typescript.svg">
-Markdown To JSON Parsing Minimal Server Using NodeJS, ExpressJS & TypeScript
-</h1>
+# Markdown Json Parsing Server
 
----
-
+## Technology:
+- NodeJs
+- Express
+- Typescript
+- Markdown to JSON Parsing Library ([md-json-parser](https://www.npmjs.com/package/md-json-parser?activeTab=readme))
